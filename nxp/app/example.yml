@@ -1,0 +1,11 @@
+esp_link:
+  section-type: application
+  contents:
+    meta_path: examples/demo_apps/esp_link
+    project-root-path: boards/${board}/demo_apps/esp_link/${multicore_foldername}
+    document:
+      name: esp_link${core_id_suffix_name}
+      category: demo_apps
+      brief: ESP32-CAM to MCX N947 UART link test (COBS + CRC-16 rover protocol), from the rover-esp32-link repo.
+  boards:
+    frdmmcxn947@cm33_core0: []

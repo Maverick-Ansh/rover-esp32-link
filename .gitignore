@@ -1,0 +1,8 @@
+# host test + logs
+*.exe
+test_link
+stream.bin
+run*.txt
+__pycache__/
+# local SDK / Arduino build output (the prebuilt firmware in nxp/prebuilt/ IS committed)
+build*/
